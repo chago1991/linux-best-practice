@@ -22,7 +22,7 @@ start)
 
 echo "Starting JBoss"
 
-sudo -u javau sh /apps/xxx/scripts/TPS/startJBoss --instanceName=xxxx
+sudo -i -u javau sh /apps/xxx/scripts/TPS/startJBoss --instanceName=xxxx
 
 ;;
 
@@ -30,7 +30,7 @@ stop)
 
 echo "Stopping JBoss"
 
-sudo -u javau sh /apps/xxx/scripts/TPS/stopJBoss --instanceName=xxxxx
+sudo -i -u javau sh /apps/xxx/scripts/TPS/stopJBoss --instanceName=xxxxx
 
 ;;
 
